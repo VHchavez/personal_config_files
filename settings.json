@@ -1,0 +1,8 @@
+{
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Inconsolata Regular",
+    "window.zoomLevel": 0.8,
+    "editor.minimap.enabled": false,
+
+}   
