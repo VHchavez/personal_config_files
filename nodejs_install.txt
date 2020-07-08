@@ -1,15 +1,13 @@
 Install nvm, node.js, and npm
-There are multiple ways to install Node.js. We recommend using a version manager as versions change very quickly. You will likely need to switch between multiple versions based on the needs of different projects you're working on. Node Version Manager, more commonly called nvm, is the most popular way to install multiple versions of Node.js. We will walk through the steps to install nvm and then use it to install Node.js and Node Package Manager (npm). There are alternative version managers to consider as well covered in the next section.
 
- Important
 
 It is always recommended to remove any existing installations of Node.js or npm from your operating system before installing a version manager as the different types of installation can lead to strange and confusing conflicts. For example, the version of Node that can be installed with Ubuntu's apt-get command is currently outdated. For help with removing previous installations, see How to remove nodejs from ubuntu.)
 
 Open your Ubuntu 18.04 command line.
-Install cURL (a tool used for downloading content from the internet in the command-line) with: sudo apt-get install curl
-Install nvm, with: curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
- Note
+sudo apt-get install curl
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 
+Note
 At the time of publication, NVM v0.35.3 was the most recent version available. You can check the GitHub project page for the latest release of NVM, and adjust the above command to include the newest version. Installing the newer version of NVM using cURL will replace the older one, leaving the version of Node you've used NVM to install intact. For example: curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash
 
 To verify installation, enter: command -v nvm ...this should return 'nvm', if you receive 'command not found' or no response at all, close your current terminal, reopen it, and try again. Learn more in the nvm github repo.
