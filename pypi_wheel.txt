@@ -1,0 +1,2 @@
+#Gets rid of the permission issue on WSL for building package
+python setup.py sdist bdist_wheel --bdist-dir ~/temp/bdistwheel
