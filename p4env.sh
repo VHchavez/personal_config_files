@@ -1,9 +1,10 @@
 conda create -y -n p4env python=3.7
 conda activate p4env
 conda install -y -c pyscf pyscf
-conda install -y -c conda-forge jupyterlab matplotlib qcelemental qcportal
+conda install -y -c conda-forge matplotlib
 conda install -y -c psi4/label/dev psi4
 conda install -y -c conda-forge opt_einsum
+conda install -c anaconda jupyter
 conda install -y -c plotly plotly
 conda install -c conda-forge dask
 
