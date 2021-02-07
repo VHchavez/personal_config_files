@@ -5,7 +5,7 @@ conda install -y -c conda-forge jupyterlab matplotlib qcelemental qcportal
 conda install -y -c psi4/label/dev psi4
 conda install -y -c conda-forge opt_einsum
 conda install -y -c plotly plotly
-conda install -y -c anaconda dask
+conda install -c conda-forge dask
 
 pip install numpy_html
 
