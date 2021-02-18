@@ -9,6 +9,7 @@ conda install -y -c plotly plotly
 conda install -c conda-forge dask
 
 pip install numpy_html
+pip install ipympl
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 nvm ls
@@ -18,4 +19,6 @@ nvm ls
 jupyter labextension install @ijmbarr/jupyterlab_spellchecker
 jupyter labextension install jupyterlab-plotly@4.8.2
 jupyter labextension install @jupyter-widgets/jupyterlab-manager plotlywidget@4.8.2
+jupyter labextension install jupyter-matplotlib
+
 
