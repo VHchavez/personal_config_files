@@ -1,3 +1,4 @@
 #Gets rid of the permission issue on WSL for building package
 python setup.py sdist bdist_wheel --bdist-dir ~/temp/bdistwheel
-python setup.py build bdist_wheel --bdist-dir ~/temp/bdistwheel
+#python setup.py build bdist_wheel --bdist-dir ~/temp/bdistwheel
+twine upload dist/*
