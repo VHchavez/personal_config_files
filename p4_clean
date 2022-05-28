@@ -1,0 +1,20 @@
+name: p4
+
+dependencies:
+    - python=3.9
+    - pip>=19.0
+    - cmake
+    - clang-format
+    - numpy
+    - scipy
+    - boost
+    - hdf5
+    - yaml
+    - jupyter
+    - eigen
+    - pytest
+    - pydantic
+    - pint
+    - pybind11
+    - pyyaml
+    - pythreejs
